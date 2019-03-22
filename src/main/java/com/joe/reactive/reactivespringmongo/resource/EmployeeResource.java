@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/rest/employee")
+@RequestMapping("/rest/employees")
 public class EmployeeResource {
 
     private EmployeeRespository employeeRespository;
